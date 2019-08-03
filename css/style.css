@@ -1,7 +1,7 @@
 :root {
     --primary-color: #333;
     --secondary-color: #444;
-    --overlay-color: rgba(0, 0, 0, .7);
+    --overlay-color: rgba(0, 0, 0, .6);
 }
 
 html {
@@ -80,7 +80,8 @@ img {
 
 .section-a {
     margin: 7rem 0;
-    height: 65vh;
+    height: 50vh;
+
 }
 
 .section-a .container {
@@ -106,7 +107,7 @@ img {
 .section-b {
     position: relative;
     background: url('../imgs/glasses-overlay.jpg') no-repeat bottom center/cover;
-    height: 600px;
+    height: 100vh;
 }
 
 .section-b-inner {
@@ -139,7 +140,7 @@ img {
 /* Section C */
 .section-c .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr)
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .section-c .gallery a:first-child {
@@ -332,11 +333,22 @@ img {
         height: auto;
     }
 
+    .section-a h1 {
+
+        font-size: 3rem;
+    }
+
     .section-a .container {
 
 
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .section-a img {
+
+        width: 80%;
+
     }
 
     .section-a .container div:first-child {
