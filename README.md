@@ -1,3 +1,3 @@
 # product-page
 Product Landing Page
-https://mrhenrya.github.io/product-page/
+https://mrhenria.github.io/product-page/
